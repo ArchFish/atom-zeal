@@ -1,0 +1,65 @@
+{
+  "name": "zeal",
+  "main": "./lib/zeal",
+  "version": "0.1",
+  "private": true,
+  "description": "Zeal documentation integration with Atom",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "keywords": [
+    "zeal",
+    "documentation",
+    "api",
+    "docs",
+    "man"
+  ],
+  "activationCommands": {
+    "atom-text-editor": [
+      "zeal:shortcut",
+      "zeal:shortcut-background",
+      "zeal:shortcut-alt",
+      "zeal:shortcut-alt-background",
+      "zeal:context-menu"
+    ]
+  },
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "scripts": {
+    "lint": "coffeelint .",
+    "test": "npm run lint && apm test"
+  },
+  "devDependencies": {
+    "coffeelint": "^1.9.2",
+    "pre-commit": "^1.0.5"
+  },
+  "readme": "",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "_id": "zeal@0.1",
+  "_shasum": "739c1c12c7a6830aa168ba5e5a12be0911732388",
+  "_resolved": "file:../d-116026-3062-d3dr1s/package.tgz",
+  "_from": "../d-116026-3062-d3dr1s/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "coffeelint.json",
+        "package.json"
+      ],
+      ".coffee": [
+        "lib/zeal.coffee",
+        "lib/filename-map.coffee",
+        "lib/grammar-map.coffee"
+      ]
+    },
+    "folders": []
+  }
+}
